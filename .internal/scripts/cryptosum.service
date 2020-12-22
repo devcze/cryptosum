@@ -1,0 +1,14 @@
+[Unit]
+Description=cryptosum.com service
+After=network.service
+
+[Service]
+ExecStart=/root/app/cryptosum/.internal/scripts/cryptosum.sh
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=cryptosum
+
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,130 @@
+/* CSS declarations go here */
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+@-webkit-keyframes up {
+    0% {
+        background-color: green;
+        opacity:1;
+    }
+    22% {
+        background-color: greenyellow;
+    }
+    77% {
+        background-color: silver;
+    }
+    100% {
+        background-color: #111111;
+    }
+}
+@-webkit-keyframes down {
+    0% {
+        background-color: darkred;
+        opacity:1;
+    }
+    22% {
+        background-color: red;
+    }
+    77% {
+        background-color: silver;
+    }
+    100% {
+        background-color: #111111;
+    }
+}
+@-webkit-keyframes up2 {
+    0% {
+        background-color: green;
+        opacity:1;
+    }
+    22% {
+        background-color: lawngreen;
+    }
+    77% {
+        background-color: silver;
+    }
+    100% {
+        background-color: #111111;
+    }
+}
+@-webkit-keyframes down2 {
+    0% {
+        background-color: darkred;
+        opacity:1;
+    }
+    22% {
+        background-color: orangered;
+    }
+    77% {
+        background-color: silver;
+    }
+    100% {
+        background-color: #111111;
+    }
+}
+@-webkit-keyframes init {
+    0% {
+        background-color: white;
+        opacity:1;
+    }
+    22% {
+        background-color: gold;
+    }
+    77% {
+        background-color: silver;
+    }
+    100% {
+        background-color: #111111;
+    }
+}
+@-webkit-keyframes init2 {
+    0% {
+        background-color: whitesmoke;
+        opacity:1;
+    }
+    22% {
+        background-color: gold;
+    }
+    77% {
+        background-color: silver;
+    }
+    100% {
+        background-color: #111111;
+    }
+}
+.up {
+    -webkit-animation-name: up;
+    -webkit-animation-duration: 900ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+.up2 {
+    -webkit-animation-name: up2;
+    -webkit-animation-duration: 900ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+.down {
+    -webkit-animation-name: down;
+    -webkit-animation-duration: 900ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+.down2 {
+    -webkit-animation-name: down2;
+    -webkit-animation-duration: 900ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+.init {
+    -webkit-animation-name: init;
+    -webkit-animation-duration: 900ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+.init2 {
+    -webkit-animation-name: init2;
+    -webkit-animation-duration: 900ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}

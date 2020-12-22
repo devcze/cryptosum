@@ -1,0 +1,149 @@
+/* CSS declarations go here */
+.blink_me {
+    animation: blinker 10s linear infinite;
+}
+@-webkit-keyframes up {
+    0% {
+        color: #c0c0c0;
+        opacity:1;
+    }
+    22% {
+        color: lightgreen;
+    }
+    77% {
+        color: lightgreen;
+    }
+    100% {
+        color: #c0c0c0;
+    }
+}
+@-webkit-keyframes down {
+    0% {
+        color: #c0c0c0;
+        opacity:1;
+    }
+    22% {
+        color: lightcoral;
+    }
+    77% {
+        color: lightcoral;
+    }
+    100% {
+        color: #c0c0c0;
+    }
+}
+@-webkit-keyframes up2 {
+    0% {
+        color: #c0c0c0;
+        opacity:1;
+    }
+    22% {
+        color: lightgreen;
+    }
+    77% {
+        color: lightgreen;
+    }
+    100% {
+        color: #c0c0c1;
+    }
+}
+@-webkit-keyframes down2 {
+    0% {
+        color: #c0c0c0;
+        opacity:1;
+    }
+    22% {
+        color: lightcoral;
+    }
+    77% {
+        color: lightcoral;
+    }
+    100% {
+        color: #c0c0c0;
+    }
+}
+@-webkit-keyframes init {
+    0% {
+        color: #c0c0c0;
+        opacity:1;
+    }
+    22% {
+        color: #7CA8D1;
+    }
+    77% {
+        color:#7CA8D1;
+    }
+    100% {
+        color: #c0c0c0;
+    }
+}
+@-webkit-keyframes init2 {
+    0% {
+        color: #c0c0c0;
+        opacity:1;
+    }
+    22% {
+        color: #7CA8D0;
+    }
+    77% {
+        color: #7CA8D0;
+    }
+    100% {
+        color: #c0c0c0;
+    }
+}
+.up {
+    -webkit-animation-name: up;
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+.up2 {
+    -webkit-animation-name: up2;
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+.down {
+    -webkit-animation-name: down;
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+.down2 {
+    -webkit-animation-name: down2;
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+.init {
+    -webkit-animation-name: init;
+    -webkit-animation-duration: 5000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+.init2 {
+    -webkit-animation-name: init2;
+    -webkit-animation-duration: 5000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+.circle-init {
+    color: #7CA8D1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('/img/init.png');
+}
+.circle-red {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('/img/down.png');
+    color: lightcoral;
+}
+.circle-green {
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: lightgreen;
+    background-image: url('/img/up.png') ;
+}
